@@ -12,9 +12,9 @@ if [ "$PWD" != "/root" ]; then
     cd /root || exit
 fi
 
-# Verifica se está usando Ubuntu 20.04
+# Verifica se está usando Debian 12
 if ! grep -q 'Ubuntu 20.04' /etc/os-release; then
-    echo "Este script recomenda o uso do Ubuntu 20.04."
+    echo "Este script recomenda o uso do Debian 12."
     sleep 3
 fi
 
@@ -31,7 +31,7 @@ if [ -e "SetupOrion" ]; then
 fi
 
 # Baixa o script
-curl -sSL https://raw.githubusercontent.com/oriondesign2015/SetupOrion/main/SetupOrion -o SetupOrion
+curl -sSL https://raw.githubusercontent.com/wyssantos/SetupOrion/main/SetupOrion -o SetupOrion
 
 # Verifica se o download foi bem-sucedido
 if [ $? -eq 0 ]; then

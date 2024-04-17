@@ -16554,13 +16554,13 @@ while true; do
 
             # Baixando workflows
             wget "https://raw.githubusercontent.com/nocodeleaks/quepasa/main/extra/n8n%2Bchatwoot/ChatwootProfileUpdate.json"
-            wget "https://raw.githubusercontent.com/oriondesign2015/SetupOrion/main/Extras/Quepasa/workflows_n8n/ChatwootToQuepasa.json"
+            wget "https://raw.githubusercontent.com/wyssantos/SetupOrion/main/Extras/Quepasa/workflows_n8n/ChatwootToQuepasa.json"
             wget "https://raw.githubusercontent.com/nocodeleaks/quepasa/main/extra/n8n%2Bchatwoot/ChatwootToQuepasaGreetings.json"
-            wget "https://raw.githubusercontent.com/oriondesign2015/SetupOrion/main/Extras/Quepasa/workflows_n8n/PostToChatwoot.json"
-            wget "https://raw.githubusercontent.com/oriondesign2015/SetupOrion/main/Extras/Quepasa/workflows_n8n/QuepasaAutomatic.json"
+            wget "https://raw.githubusercontent.com/wyssantos/SetupOrion/main/Extras/Quepasa/workflows_n8n/PostToChatwoot.json"
+            wget "https://raw.githubusercontent.com/wyssantos/SetupOrion/main/Extras/Quepasa/workflows_n8n/QuepasaAutomatic.json"
             wget "https://raw.githubusercontent.com/nocodeleaks/quepasa/main/extra/n8n%2Bchatwoot/QuepasaChatControl.json"
             wget "https://raw.githubusercontent.com/nocodeleaks/quepasa/main/extra/n8n%2Bchatwoot/QuepasaInboxControl.json"
-            wget "https://raw.githubusercontent.com/oriondesign2015/SetupOrion/main/Extras/Quepasa/workflows_n8n/QuepasaQrcode.json"
+            wget "https://raw.githubusercontent.com/wyssantos/SetupOrion/main/Extras/Quepasa/workflows_n8n/QuepasaQrcode.json"
             wget "https://raw.githubusercontent.com/nocodeleaks/quepasa/main/extra/n8n%2Bchatwoot/QuepasaToChatwoot.json"
             wget "https://raw.githubusercontent.com/nocodeleaks/quepasa/main/extra/n8n%2Bchatwoot/GetChatwootContacts.json"
             wget "https://raw.githubusercontent.com/nocodeleaks/quepasa/main/extra/n8n%2Bchatwoot/PostToWebCallBack.json"
